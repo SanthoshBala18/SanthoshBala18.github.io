@@ -1,0 +1,33 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.affix{
+  position: fixed;
+    height: 78px;
+    background: #fff;
+}
+.owl-prev{
+  /* float: left; */
+  background: #362D6C!important;
+  color:#fff!important;
+  
+}
+
+.owl-next{
+  /* float: right; */
+  background: #362D6C!important;
+  color:#fff!important;
+}
+
+.logo-pc{
+    display: block;
+}
+
+.d-true{
+    display: block!important;
+}
+@media only screen and (max-width: 760px) {
+  .logo-pc{
+        display: none;
+    }
+}

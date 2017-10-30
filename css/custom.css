@@ -1,3 +1,5 @@
+@font-face { font-family: 'TrajanPro-Regular'; src:  url('/css/webfont/TrajanPro-Regular.ttf') format('truetype') }
+
 *{
   font-family: 'Open Sans', sans-serif;
 }
@@ -26,8 +28,19 @@
 .d-true{
     display: block!important;
 }
+
+.pic-width{
+  width:47%!important;
+}
 @media only screen and (max-width: 760px) {
   .logo-pc{
         display: none;
+    }
+    .pic-width{
+      width:94%!important;
+    }
+
+    .contact-margin{
+      margin-top:75%!important;
     }
 }
